@@ -1,5 +1,5 @@
-import React from 'react'
-import '../styles/App.css';
+import React from "react";
+import "../styles/App.css";
 const TypesOfFruit = () => {
   return (
     <div id="typesOfFruits">
@@ -17,23 +17,21 @@ const TypesOfFruit = () => {
 const Fruits = () => {
   return (
     <div id="fruits">
-      { /* Change code below this line */ }
-
-      { /* Change code above this line */ }
+      {/* Change code below this line */}
+      <TypesOfFruit />
+      {/* Change code above this line */}
     </div>
   );
 };
 const App = () => {
-
   return (
     <div id="main">
       <h1>Types of Food:</h1>
-      { /* Change code below this line */ }
-
-      { /* Change code above this line */ }
+      {/* Change code below this line */}
+      <Fruits />
+      {/* Change code above this line */}
     </div>
-  )
-}
-
+  );
+};
 
 export default App;
